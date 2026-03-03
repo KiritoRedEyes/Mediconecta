@@ -1,0 +1,122 @@
+body {
+    text-align: center;
+    background-color: rgb(4, 42, 89);
+    color: white;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: large;
+}
+
+.albert{
+    width: 50px;
+    height: 50px;
+}
+
+a{
+    font-family: Arial, sans-serif;
+    font-size: medium;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    font-style: oblique;
+}
+
+button {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+#genio {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    align-items: center;
+    background-image: url("Imagens/genio.png");
+    border: none;
+    box-shadow: none;
+    margin: 0 auto;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+a{
+    padding: 14px 16px;
+}
+
+#logo{
+    background-image: url(Imagens/mediconectaLOGO.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 18px;
+    width: 16px;
+    padding: 14px 16px;
+
+}
+
+#bemvindo {
+    width: 400px;
+    align-items: center;
+    padding-left: 50px;
+}
+
+#map {
+    height: 290px;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.balao2 {
+    background: white;
+    border-radius: 15px;
+    width: 320px;
+    height: 140px;
+    color: black;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.balao2:after {
+    content: "";
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid white;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}

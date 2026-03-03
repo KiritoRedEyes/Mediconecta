@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediConecta</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMsx7U48sNkyl2tHu_fBx7GOw_JQmPjcg&libraries=places"></script>
+</head>
+<body onload="initMap()">
+    <ul>
+        <li><a id="logo" href="/start.html"></a></li>
+        <li><a href="/contatos.html">Contatos</a></li>
+        <li><a href="/sobre.html">Sobre o Site</a></li>
+    </ul>
+    <h1>O primeiro sintoma apresentado será o mais comum, febre. <p> Por favor escolha uma das opções abaixo:</p></h1>
+    <div class="container">
+        <div id="question-container" class="hidden">
+            <p id="question"></p>
+            <button onclick="handleResponse('S')">Sim</button>
+            <button onclick="handleResponse('N')">Não</button>
+            <button onclick="handleResponse('NS')">Não Sei</button>
+        </div>
+        <div id="result-container" class="hidden">
+            <p id="result"></p>
+        </div>
+    </div>
+        <button onclick="mudarPagina()" href="/index.html">Refazer o diagnóstico</button>
+    <div id="question-container2">
+        <h1>Para saber mais sobre sobre a doença clique na imagem abaixo:</h1>
+        <img id='albert' src="" />
+        <a onclick="criarLink()" id="link-doenca" href="#"><img id="albert" src="/Imagens/mediconecta.jpeg" ></a>
+    </div>
+    <div>
+        <h1>Nosso site ele indentifica a sua doença por meio dos seus sintomas, mas a melhor situação é para vc ir para o hospital mais próximo porque algumas doenças podem ter sintomas parecidos! Aqui está um mapa com a lista de hospitais próximos!</script></h1>
+        <div id="map"></div>
+    </div>
+</body>
+</html>

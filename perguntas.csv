@@ -1,0 +1,21 @@
+Doenca,Você está Tossindo?, Você está Espirrando,Você está com Coceira, Você está sofrendo de Mal-Estar,Você está com Formigamento,Você está com Febre,Você está com Dor Muscular,Você está com Paralisação Da Face,Você está com Dor De Cabeça,Você está com Fraqueza,Você está com Dor Lombar,Você está com Perda De Apetite,Você está com Azia
+Alergia,1,1,1,1,1,0,0,0,0,0,0,0,0
+dengue,0,0,0,0,0,1,1,0,0,0,0,0,0
+acidente-vascular-cerebral,0,0,0,0,0,0,0,1,1,0,0,0,0
+Beribéri,0,0,0,0,0,0,1,0,0,1,0,1,0
+covid-19,0,0,0,0,0,1,0,0,1,0,0,1,0
+Enxaqueca,0,0,0,0,1,0,0,0,1,0,0,0,0
+Faringite,1,0,0,0,0,1,0,0,0,0,0,0,0
+Gastrite,0,0,0,0,0,0,0,0,0,0,0,1,1
+Hepatite,0,0,0,0,0,1,0,0,0,0,0,1,0
+leucemia,0,0,0,0,0,0,0,0,0,1,0,0,0
+Gripe,1,0,0,0,0,1,1,0,0,1,0,0,0
+Meningite,0,0,0,0,0,1,0,0,1,0,0,0,0
+Malária,0,0,0,0,0,1,0,0,0,0,0,0,0
+Neutropenia,0,0,0,0,0,1,0,0,0,0,0,0,0
+Oncocercose,0,0,1,0,0,0,0,0,0,0,0,0,0
+rinite-alergica,0,1,0,0,0,0,0,0,0,0,0,0,0
+Sífilis,0,0,0,0,0,1,0,0,0,0,0,0,0
+Urticária,0,0,1,0,0,0,0,0,0,0,0,0,0
+Varíola,0,0,0,0,0,1,0,0,1,0,0,0,0
+zika-virus,0,0,0,0,0,1,1,0,1,0,0,0,0
